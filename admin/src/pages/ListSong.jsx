@@ -6,7 +6,7 @@ const ListSong = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = import.meta.env.VITE_API_URL || "http://localhost:5000"; // ✅ base URL
+  const url = import.meta.env.VITE_API_URL || "https://spotify-clone-project-dkiv.vercel.app/"; // ✅ base URL
 
   // ✅ Fetch all songs
   const fetchSongs = async () => {
