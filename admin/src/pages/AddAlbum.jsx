@@ -10,7 +10,7 @@ const AddAlbum = () => {
   const [desc, setDesc] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const url = import.meta.env.VITE_API_URL || "https://spotify-clone-project-dkiv.vercel.app/"; // ✅ Replace with your backend base URL
+  const url = "https://spotify-clone-project-mk50.onrender.com" // ✅ Replace with your backend base URL
 
   const onSubmitHandler = async (e) => {
     e.preventDefault(); // ✅ Corrected typo (was e.preventDeafult)
