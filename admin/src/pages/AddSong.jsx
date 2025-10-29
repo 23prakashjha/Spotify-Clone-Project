@@ -13,7 +13,7 @@ const AddSong = () => {
   const [albumData, setAlbumData] = useState([]);
 
   // ✅ use a safe port for backend
-  const url = "https://spotify-clone-project-dkiv.vercel.app/";  
+  const url = "https://spotify-clone-project-mk50.onrender.com";  
 
   // (Optional) Fetch albums if available
   useEffect(() => {
