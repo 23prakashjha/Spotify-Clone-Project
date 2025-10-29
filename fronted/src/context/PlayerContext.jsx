@@ -18,7 +18,7 @@ const PlayerContextProvider = ({ children }) => {
     totalTime: { second: 0, minute: 0 },
   });
 
-  const url = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const url = import.meta.env.VITE_API_URL || "https://spotify-clone-project-dkiv.vercel.app/";
 
   // Fetch songs
   const getSongsData = async () => {

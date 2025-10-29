@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 const ListAlbum = () => {
   const [data, setData] = useState([]);
 
-  const url = import.meta.env.VITE_API_URL || "http://localhost:5000"; // ✅ Replace with your backend base URL
+  const url = import.meta.env.VITE_API_URL || "https://spotify-clone-project-dkiv.vercel.app/"; // ✅ Replace with your backend base URL
 
   // ✅ Fetch albums
   const fetchAlbums = async () => {
